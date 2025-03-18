@@ -611,7 +611,7 @@ const UnitConverter: React.FC = () => {
 
   return (
     <div className="app-container w-full min-h-screen flex items-center justify-center bg-gradient-to-br from-blue-50 to-indigo-50 dark:from-gray-900 dark:to-gray-800">
-      <div className="w-full max-w-3xl mx-auto card hover-lift m-4">
+      <div className="w-full max-w-3xl mx-auto card m-4">
         <div className="card-content">
           <div className="flex justify-between items-center mb-6">
             <div className="flex items-center text-primary-600 dark:text-primary-400 subtle-hover">
