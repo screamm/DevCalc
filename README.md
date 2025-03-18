@@ -143,12 +143,10 @@ Distribuerad under MIT-licensen. Se `LICENSE` för mer information.
 
 ## 📬 Kontakt
 
-Ditt namn - [@din_twitter](https://twitter.com/din_twitter)
-
 Projektlänk: [https://github.com/your-username/devcalc](https://github.com/your-username/devcalc)
 
 ---
 
 <div align="center">
-  <p>Byggd med ❤️ av <a href="https://github.com/your-username">ditt användarnamn</a></p>
+  <p>Byggd med ❤️ av <a href="https://github.com/screamm">ditt användarnamn</a></p>
 </div> 
