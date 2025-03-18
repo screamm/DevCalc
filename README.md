@@ -143,10 +143,10 @@ Distribuerad under MIT-licensen. Se `LICENSE` för mer information.
 
 ## 📬 Kontakt
 
-Projektlänk: [https://github.com/your-username/devcalc](https://github.com/your-username/devcalc)
+Projektlänk: [https://github.com/screamm/devcalc](https://github.com/screamm/devcalc)
 
 ---
 
 <div align="center">
-  <p>Byggd med ❤️ av <a href="https://github.com/screamm">ditt användarnamn</a></p>
+  <p>Byggd med ❤️ av <a href="https://github.com/screamm">screamm</a></p>
 </div> 
