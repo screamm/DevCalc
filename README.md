@@ -1,152 +1,152 @@
-# DevCalc - CSS Enhetskonverterare
+# DevCalc - CSS Unit Converter
 
 <div align="center">
   <img src="screenshot.png" alt="DevCalc Screenshot" width="800" />
-  <p><em>DevCalc i modern mörk design</em></p>
+  <p><em>DevCalc in modern dark design</em></p>
 </div>
 
-## 📋 Beskrivning
+## 📋 Description
 
-DevCalc är en kraftfull CSS-enhetskonverterare utvecklad för att göra webbdesign och frontend-utveckling enklare. Med ett intuitivt användargränssnitt och omfattande konverteringsmöjligheter kan du snabbt och enkelt konvertera mellan olika CSS-enheter som px, rem, em, vh, vw och många fler.
+DevCalc is a powerful CSS unit converter developed to make web design and frontend development easier. With an intuitive user interface and comprehensive conversion capabilities, you can quickly and easily convert between various CSS units such as px, rem, em, vh, vw, and many more.
 
-### ✨ Huvudfunktioner
+### ✨ Key Features
 
-- **Omfattande enhetskonvertering** - Stöd för relativa, absoluta, viewport och text-baserade enheter
-- **Anpassningsbara inställningar** - Anpassa root font-size, textparametrar och skärmstorlekar
-- **Visuell förhandsgranskning** - Se hur dina konverterade enheter ser ut i mobil-, surfplatt- och desktop-vy
-- **Smidiga tangentbordsgenvägar** - Öka din produktivitet med snabba kommandon
-- **Konverteringshistorik** - Spara och återanvänd dina senaste konverteringar
-- **Mörkt och ljust tema** - Bekväm användning i alla ljusförhållanden
-- **Responsiv design** - Fungerar sömlöst på alla enheter
+- **Comprehensive Unit Conversion** - Support for relative, absolute, viewport, and text-based units
+- **Customizable Settings** - Adjust root font-size, text parameters, and screen sizes
+- **Visual Preview** - See how your converted units look in mobile, tablet, and desktop views
+- **Efficient Keyboard Shortcuts** - Increase your productivity with quick commands
+- **Conversion History** - Save and reuse your recent conversions
+- **Dark and Light Theme** - Comfortable usage in all lighting conditions
+- **Responsive Design** - Works seamlessly on all devices
 
-## 🚀 Komma igång
+## 🚀 Getting Started
 
-### Förutsättningar
+### Prerequisites
 
-- Node.js (v14 eller senare)
-- npm eller yarn
+- Node.js (v14 or later)
+- npm or yarn
 
 ### Installation
 
-1. Klona repot:
+1. Clone the repo:
    ```bash
    git clone https://github.com/your-username/devcalc.git
    cd devcalc
    ```
 
-2. Installera beroenden:
+2. Install dependencies:
    ```bash
    npm install
-   # eller
+   # or
    yarn install
    ```
 
-3. Starta utvecklingsservern:
+3. Start the development server:
    ```bash
    npm run dev
-   # eller
+   # or
    yarn dev
    ```
 
-4. Öppna [http://localhost:5173](http://localhost:5173) i din webbläsare
+4. Open [http://localhost:5173](http://localhost:5173) in your browser
 
-### Bygga för produktion
+### Building for Production
 
 ```bash
 npm run build
-# eller
+# or
 yarn build
 ```
 
-## 🔧 Enhetstyper och konverteringar
+## 🔧 Unit Types and Conversions
 
-DevCalc stöder följande enhetstyper:
+DevCalc supports the following unit types:
 
-### Relativa enheter
+### Relative Units
 - `px` ↔ `rem`
 - `px` ↔ `em`
 - `rem` ↔ `em`
 - `px` ↔ `%`
 - `%` ↔ `px`
 
-### Viewport-enheter
+### Viewport Units
 - `px` ↔ `vh`
 - `px` ↔ `vw`
 - `vw` ↔ `vh`
 - `px` ↔ `vmin`
 - `px` ↔ `vmax`
 
-### Absoluta enheter
+### Absolute Units
 - `px` ↔ `pt`
 - `px` ↔ `cm`
 - `px` ↔ `mm`
 - `px` ↔ `in`
 
-### Text-enheter
+### Text Units
 - `px` ↔ `ch`
 - `px` ↔ `ex`
 - `em` ↔ `ch`
 
-## ⌨️ Tangentbordsgenvägar
+## ⌨️ Keyboard Shortcuts
 
-DevCalc erbjuder ett stort antal tangentbordsgenvägar för att öka din produktivitet:
+DevCalc offers numerous keyboard shortcuts to increase your productivity:
 
-### Navigering
-- `←` `→` - Växla mellan konverteringar
-- `↑` `↓` - Byta mellan kategorier
-- `Esc` - Stäng dialoger eller återställ värden
+### Navigation
+- `←` `→` - Switch between conversions
+- `↑` `↓` - Toggle between categories
+- `Esc` - Close dialogs or reset values
 
-### Åtgärder (Ctrl/Cmd + ...)
-- `C` - Kopiera resultat
-- `R` - Återställ värden
-- `P` - Visa/dölj förhandsgranskning
-- `H` - Visa/dölj historik
-- `S` - Öppna inställningar
-- `I` - Visa information
-- `D` - Byt tema (mörkt/ljust)
+### Actions (Ctrl/Cmd + ...)
+- `C` - Copy result
+- `R` - Reset values
+- `P` - Show/hide preview
+- `H` - Show/hide history
+- `S` - Open settings
+- `I` - Show information
+- `D` - Toggle theme (dark/light)
 
-### Andra
-- `?` - Visa tangentbordsgenvägar
+### Other
+- `?` - Show keyboard shortcuts
 
-## 🌐 Anpassa dina konverteringar
+## 🌐 Customize Your Conversions
 
-DevCalc låter dig anpassa:
+DevCalc allows you to customize:
 
-- **Root font-size**: Ändra basen för rem/em-konverteringar
-- **Teckens bredd**: Justera ch-enhetens bredd
-- **X-höjd**: Anpassa ex-enhetens höjd
-- **Skärmstorlek**: Ange egna skärmdimensioner för viewport-baserade enheter
+- **Root font-size**: Change the base for rem/em conversions
+- **Character width**: Adjust the ch unit width
+- **X-height**: Customize the ex unit height
+- **Screen size**: Set custom screen dimensions for viewport-based units
 
-## 💡 Teknisk information
+## 💡 Technical Information
 
-DevCalc är byggd med:
+DevCalc is built with:
 
-- **React** - UI-bibliotek
-- **TypeScript** - Typningssystem
-- **Tailwind CSS** - Stilbibliotek
-- **Vite** - Utvecklingsverktyg och byggprocess
-- **Lucide Icons** - Ikonbibliotek
+- **React** - UI library
+- **TypeScript** - Type system
+- **Tailwind CSS** - Styling library
+- **Vite** - Development tool and build process
+- **Lucide Icons** - Icon library
 
-## 🤝 Bidra
+## 🤝 Contributing
 
-Bidrag, problem och förfrågningar om funktioner är välkomna!
+Contributions, issues, and feature requests are welcome!
 
-1. Forka repot
-2. Skapa din feature-gren (`git checkout -b feature/amazing-feature`)
-3. Commit dina ändringar (`git commit -m 'Add some amazing feature'`)
-4. Push till grenen (`git push origin feature/amazing-feature`)
-5. Öppna en Pull Request
+1. Fork the repo
+2. Create your feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add some amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
 
-## 📝 Licens
+## 📝 License
 
-Distribuerad under MIT-licensen. Se `LICENSE` för mer information.
+Distributed under the MIT License. See `LICENSE` for more information.
 
-## 📬 Kontakt
+## 📬 Contact
 
-Projektlänk: [https://github.com/screamm/devcalc](https://github.com/screamm/devcalc)
+Project Link: [https://github.com/screamm/devcalc](https://github.com/screamm/devcalc)
 
 ---
 
 <div align="center">
-  <p>Byggd med ❤️ av <a href="https://github.com/screamm">screamm</a></p>
+  <p>Built with ❤️ by <a href="https://github.com/screamm">screamm</a></p>
 </div> 
